@@ -1,5 +1,5 @@
 package chapter6;
-//这是一个单例类，只能创建一个对象
+//这是一个单例类，只能创建一个对象.
 public class Singleton {
      private static Singleton instance;
 //     隐藏构造器

@@ -33,6 +33,15 @@ public interface OutPut {
 
 package chapter6;
 
+public interface Product {
+   int getProductTime();
+}
+
+
+
+
+package chapter6;
+
 public class Printer implements OutPut, Product {
 	private String[] printDate = new String[MAX_CACHE_LINE];
 	private int dateNum = 0;
